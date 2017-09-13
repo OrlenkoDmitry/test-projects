@@ -1,0 +1,92 @@
+<i class=" -arrow"></i>
+<i class=" -basket"></i>
+<i class=" -clock"></i>
+<i class=" -fb"></i>
+<i class=" -google"></i>
+<i class=" -location"></i>
+<i class=" -logo"></i>
+<i class=" -mail"></i>
+<i class=" -mark"></i>
+<i class=" -phone"></i>
+<i class=" -search"></i>
+<i class=" -tw"></i>
+<i class=" -two-arrow"></i>
+<i class=" -two-arrow-black"></i>
+<i class=" -user"></i>
+<i class=" -vk"></i>
+
+
+.stitches-(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+. {
+    background-image: url(spritesheet.png);    background-repeat: no-repeat;
+    display: block;
+
+    &.-arrow {
+        .stitches-(-5px, -5px, 9px, 5px);
+    }
+
+    &.-basket {
+        .stitches-(-24px, -5px, 27px, 22px);
+    }
+
+    &.-clock {
+        .stitches-(-61px, -5px, 16px, 16px);
+    }
+
+    &.-fb {
+        .stitches-(-87px, -5px, 8px, 15px);
+    }
+
+    &.-google {
+        .stitches-(-105px, -5px, 16px, 16px);
+    }
+
+    &.-location {
+        .stitches-(-131px, -5px, 13px, 19px);
+    }
+
+    &.-logo {
+        .stitches-(-154px, -5px, 27px, 27px);
+    }
+
+    &.-mail {
+        .stitches-(-191px, -5px, 18px, 14px);
+    }
+
+    &.-mark {
+        .stitches-(-219px, -5px, 14px, 11px);
+    }
+
+    &.-phone {
+        .stitches-(-243px, -5px, 16px, 16px);
+    }
+
+    &.-search {
+        .stitches-(-269px, -5px, 22px, 22px);
+    }
+
+    &.-tw {
+        .stitches-(-301px, -5px, 15px, 13px);
+    }
+
+    &.-two-arrow {
+        .stitches-(-326px, -5px, 9px, 9px);
+    }
+
+    &.-two-arrow-black {
+        .stitches-(-345px, -5px, 9px, 9px);
+    }
+
+    &.-user {
+        .stitches-(-364px, -5px, 14px, 17px);
+    }
+
+    &.-vk {
+        .stitches-(-388px, -5px, 15px, 9px);
+    }
+}

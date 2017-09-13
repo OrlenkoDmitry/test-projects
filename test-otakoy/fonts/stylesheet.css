@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'FSElliotPro';
+    src: url('fselliotpro-webfont.eot');
+    src: url('fselliotpro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fselliotpro-webfont.woff') format('woff'),
+         url('fselliotpro-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'FSElliotPro-Bold';
+    src: url('fselliotpro-bold-webfont.eot');
+    src: url('fselliotpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fselliotpro-bold-webfont.woff') format('woff'),
+         url('fselliotpro-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'FSElliotPro-Light';
+    src: url('fselliotpro-light-webfont.eot');
+    src: url('fselliotpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fselliotpro-light-webfont.woff') format('woff'),
+         url('fselliotpro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'FSElliotPro-Thin';
+    src: url('fselliotpro-thin-webfont.eot');
+    src: url('fselliotpro-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fselliotpro-thin-webfont.woff') format('woff'),
+         url('fselliotpro-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

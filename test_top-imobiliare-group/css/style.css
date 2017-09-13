@@ -1,0 +1,385 @@
+body {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Lato', sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.header {
+max-width: 1170px;
+margin: 0 auto;
+}
+.header__logo {
+  float: left;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.header__logo::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 8px;
+  left: 0;
+  background-image: url('../img/logo.png');
+}
+.header__logo span {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.header__logo span:nth-child(2) {
+  color: #66b8a4;
+}
+.header__logo p {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.header .fa-bars {
+  float: left;
+  margin-top: 23px;
+  margin-left: 33px;
+  margin-right: 36px;
+  color: #66b8a4;
+}
+.header .fa-bars:hover{
+  cursor: pointer;
+}
+.header__nav {
+  float: left;
+  margin-top: 21px;
+  margin-right: 24px;
+}
+.header__nav .menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header__nav .menu li {
+  display: inline-block;
+}
+.header__nav .menu li:first-child {
+  margin-right: 18px;
+}
+.header__nav .menu li:nth-child(2) {
+  margin-right: 19px;
+}
+.header__nav .menu li:nth-child(3) {
+  margin-right: 20px;
+}
+.fa-globe {
+  margin-top: 23px;
+  margin-right: 20px;
+  color: #66b8a4;
+}
+.fa-envelope {
+  margin-right: 22px;
+  color: #66b8a4;
+}
+.fa-angle-down:hover {
+  cursor: pointer;
+  color: #66b8a4;
+}
+.header img {
+  margin-left: 21px;
+}
+.header__registration {
+  float: right;
+  background-color: #66b8a4;
+  padding-top: 20px;
+  padding-right: 27px;
+  padding-bottom: 24px;
+  padding-left: 31px;
+  color: white;
+}
+.header__registration span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header__registration a:hover {
+  text-decoration: underline;
+}
+.main {
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100% 100%;
+  height: 640px;
+}
+
+.main__nav {
+  background-color: #464646;
+  opacity: 0.9;
+}
+
+.main__nav .menu {
+  padding: 0;
+  margin: 0;
+  max-width: 1050px;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+.main__nav .menu li {
+  display: inline-block;
+  padding: 9px 0;
+}
+
+.main__nav .menu li:not(:last-child) a {
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+.main__nav .menu li:not(:first-child) a {
+  padding-left: 10px;
+}
+
+.main__nav .menu li a:hover {
+  text-decoration: underline;
+}
+.main_advantages {
+  margin-left: 21.20%;
+}
+
+.tabs {
+  position: relative;
+  width: 510px;
+  height: 407px;
+  padding-top: 20px;
+  padding-right: 28px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  margin-bottom: 13px;
+  transform: skewX(-10deg);
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.tabs:before {
+  content: "";
+  position: absolute;
+  width: 0;
+	height: 0;
+  top: 407px;
+  left: 2px;
+	border-top: 29px solid white;
+	border-left: 33px solid transparent;
+  opacity: 0.6;
+}
+
+.tabs h4 {
+  width: 82px;
+  margin: 0 auto;
+  margin-bottom: 23px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 900;
+  text-align: center;
+  transform: skewX(10deg);
+}
+
+.tabs .nav-pills li {
+  width: 100px;
+  height: 38px;
+  margin-right: 11px;
+  margin-left: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  text-align: center;
+}
+
+.tabs .nav-pills li:last-child {
+  margin-right: 0;
+}
+
+.tabs .nav-pills li:nth-child(3) {
+  width: 112px;
+}
+
+.tabs .nav-pills li.active a {
+  background-color: #66b8a4;
+  font-weight: 900;
+}
+
+.tabs .nav-pills li a {
+  border-radius: 0;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  transform: skewX(10deg);
+}
+
+.input-block {
+  float: left;
+}
+
+#location {
+  width: 100%;
+}
+input[type="text"] {
+  height: 40px;
+  outline: none;
+  border: 1px solid  #e5e5e5;
+  color: black;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  background-color: #D5F6D5;
+}
+
+.input-block:nth-of-type(2),
+.input-block:nth-of-type(5) {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.input-block input[type="text"] {
+  width: 140px;
+}
+
+.checkbox-block {
+  float: left;
+  margin-top: 10px;
+}
+
+.checkbox-block span {
+  font-weight: 700;
+}
+
+button {
+  float: right;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 22px;
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 48px;
+  margin-top: 11px;
+  background-color: #cf5555;
+  text-align: center;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]+label {
+  padding-left: 29px;
+  margin-right: 18px;
+  margin-top: 8px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight: 400;
+}
+
+input[type=checkbox]+label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #e5e5e5;
+  }
+
+input[type=checkbox]:checked+label::before {
+  background-image: url("../img/mark.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form-container {
+  width: 510px;
+  margin-top: 34px;
+  float: left;
+}
+
+.form-container .buttons a {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 900;
+  background-color: white;
+  transform: skewX(-10deg);
+}
+
+.form-container .buttons a:first-child {
+  padding: 15px 155px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.form-container .buttons a:last-child {
+  padding: 15px 139px;
+  margin-left: 0;
+}
+
+.main-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.main-advantages {
+  width: 580px;
+  margin-top: 122px;
+  float: left;
+  color: white;
+}
+
+.main-advantages h1 {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: -20px;
+}
+
+.main-advantages h2 {
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.main-advantages p {
+  margin-bottom: 29px;
+}
+
+.main-advantages a {
+  width: 256px;
+  height: 62px;
+  padding: 22px 27px;
+  border-radius: 5px;
+  background-color: #66b8a4;
+  vertical-align: middle;
+  font-weight: 900;
+}
