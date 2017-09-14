@@ -206,6 +206,9 @@
     float: none;
     vertical-align: top;
 }
+.books + .row .btn-primary {
+    margin-bottom: 20px;
+}
 .well{
     border-radius: 0 0 4px 4px;
 }
